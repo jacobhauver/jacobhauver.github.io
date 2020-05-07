@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This is a purposed HTML file with errors for use in a WDD130 activity.">
+  <link rel="stylesheet" href="text/css/invalid.css">
+<body>
+  <title>Problem HTML File</title>
+  <header>
+    <h1>Problem HTML File</h1>
+  </header>
+  <nav>
+    <ul>
+      <h2>Main Menu</h2>
+      <li><a>Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href = "services.html">Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h3>Section One</h3>
+      <img src="https://placekitten.com/300/300">
+    </section>
+    <section>
+      <h3>Section Two</h4>
+      <img src="https://placekitten.com/500/200" alt="A placeholder image for section two">
+    </section>
+    <aside>
+  </main>
+  <footer>
+    <hr>
+    <p>&copy; 2020 WDD @BYU-Idaho | <strong></strong>Example Invalid HTML File | All Rights Reserved</p>
+    </hr>
+  </footer>
+</body>
+</html>
