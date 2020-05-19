@@ -1,3 +1,21 @@
-h1 {
-    color: cadetblue;
+body{
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+header {
+    background-color: whitesmoke;
+    color: black;
+}
+main,
+footer{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+main section p{
+    margin: 5px;
+    border: 1px solid #bbb;
+    padding: 5px;
+background-color: #eeeeee;
+
 }
