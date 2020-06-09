@@ -1,18 +1,77 @@
-body{
+body {
     font-size: 16px;
-    background-color: white;
+    background-color: whitesmoke;
 }
-header,
-main,
-footer{
-    max-width: 960px;
-    margin: 0 auto 10;
+header, main, footer {
+    max-width: 1060px;
+    margin: 0 auto
+}
+header {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 5px;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+header > img {
+width: 100px;
+height: auto;
 }
-main section p{
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    color: black;
+text-decoration: none;
+font-size: 1.1rem;
+font-family: 'Times New Roman', Times, serif;
+display: block;
+padding: .25rem;
+}
+
+.active {
+    color: black;
+    text-decoration: underline;
+}
+main section p {
     margin: 5px;
     border: 1px solid #bbb;
-    padding:5px;
-
+    padding: 5px;
+background-color: #eeeeee;
 
 }
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.calltoaction {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    top: 10px;
+    left: 10px;
+}
+
+.twocolumngrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.twocolumngrid img {
+    width: 100%;
+    height: auto;
+}
+
+.twocolumngrid section [
+    text-align: right;
+]
