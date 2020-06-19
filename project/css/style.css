@@ -85,7 +85,7 @@ border-radius: 1rem;
 }
 .social {
     text-align: left;
-   float: left;
+   float: right;
    padding: 10px;
 }
 .section {
@@ -93,4 +93,8 @@ border-radius: 1rem;
     color: grey;
     
    
+}
+
+.contact {
+    grid-column: 1/3;
 }

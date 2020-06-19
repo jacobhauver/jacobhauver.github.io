@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "jacobhauver.github.io",
+			"path": ".."
+		},
+		{
+			"name": "project",
+			"path": "../project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jacobhauver.github.io"
+	}
+}

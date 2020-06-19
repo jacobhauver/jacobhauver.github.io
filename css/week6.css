@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    background-color: #fff;
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .content1, .content2, .content3, .content4, .content5, .content6 {
+      width: 600px;
+  }
+  /* Activity 1 styles */
+  .content1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      grid-gap: 20px;
+      
+    
+  }
+
+.content1 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100x;
+    height: 100px;
+    background-color: red;
+}
+.blue2 {
+    background-color: blue;
+
+}
