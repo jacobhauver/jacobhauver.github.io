@@ -64,12 +64,15 @@ border-radius: 1rem;
 
 .calltoaction {
     position: absolute;
-    background-color: #add8e6;
+    background-color: white;
     color: #06045894;
-    top: 200px;
-    left: 350px;
+    text-align: center;
+    top: 700px;
+    left: 200px;
     border-radius: 1rem;
     padding: 10px;
+    
+
 }
 
 .twocolumngrid {
@@ -92,12 +95,13 @@ border-radius: 1rem;
     text-align: left;
     color: #06045894;
     text-align: center;
+    
 }
 .social {
     text-align: left;
    float: right;
    padding: 10px;
-   background-color: white;
+   background-color: #e7ebe0ff;
    display: block;
    color: white
 }
