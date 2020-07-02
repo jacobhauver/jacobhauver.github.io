@@ -1,0 +1,31 @@
+header {
+    color: rgb(39, 35, 34);
+    text-align: center;
+    background-color: #ffdf00;
+    font-size: x-large;
+    border-radius: 1rem;
+    width: inherit;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.weclome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: rgb(144, 216, 175);
+
+}
+.frame {
+    justify-content: center;
+    display: grid;
+    display: flex;
+    position: relative;
+}
