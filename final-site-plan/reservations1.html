@@ -3,54 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/corona1.css">
+    <link rel="stylesheet" href="css/reservation.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <img src="images/corona queeen.png" alt="LOGO">
         <h1>Corona Queen Receptions</h1>
-
-        <nav>
-            <ul>
-                <button style="margin: 5px; background-color: rgb(188, 203, 206); border-color: rgb(188, 203, 206); border-radius: .25rem; font-family: 'Times New Roman', Times, serif;">
-                    <li><a class="active" href="home1.html" style="padding: 2px; color: rgb(50, 88, 109);">Home</a></li>
-                </button>
-                <button style="margin: 5px; background-color: rgb(188, 203, 206); border-color: rgb(188, 203, 206); border-radius: .25rem; font-family: 'Times New Roman', Times, serif;">
-                    <li><a href="reservations1.html" style="padding: 2px; color: rgb(50, 88, 109);">Reservations</a></li>
-                </button>
-                <button style="margin: 5px; background-color: rgb(188, 203, 206); border-color: rgb(188, 203, 206); border-radius: .25rem; font-family:'Times New Roman', Times, serif;"> 
-                    <li><a href="about me.html" style="padding: 2px; color: rgb(50, 88, 109);">About Me</a></li>
-                </button>
-                <button style="margin: 5px; background-color: rgb(188, 203, 206); border-color: rgb(188, 203, 206); border-radius: .25rem; font-family:'Times New Roman', Times, serif;">
-                    <li><a href="questions1.html" style="padding: 2px; color: rgb(50, 88, 109);">Questions</a></li>
-                </button>
-            </ul>
-        </nav>
-
     </header>
+    <ul>
+        <li><a class="active" href="home1.html">Home</a></li>
+        <li><a href="reservations1.html">Reserve Now</a></li>
+        <li><a href="about me.html">Pricing</a></li>
+        <li><a href="questions1.html">Questions</a></li>
+      </ul>
 
-        
-        <div>
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-          
-            <input type="submit" value="Submit">
-          </form>
+    <main>
+        <div class="hero">
+            <img src="images/wedding1.png" alt="temple" />
+            
         </div>
-        
-        </body>
+
+<div style="padding: 20px;">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Select A Day</label>
+    <select id="country" name="country">
+      <option value="australia">Monday</option>
+      <option value="canada">Tuesday</option>
+      <option value="usa">Wedsnday</option>
+      <option value="usa">Thursday</option>
+      <option value="usa">Friday</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    </main>
+    
+    
         <footer style="max-width: 1060px; margin: auto; padding: 5px;">
             &copy; 2020 | Jacob Hauver | Las Vegas Nevada | All Rights Reserved | Privacy And Cookie Statement 
             <div class="contact">
